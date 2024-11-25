@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Header Section */
+.header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* Profile Section */
+.profile {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 10px auto;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    border: 5px solid #4CAF50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.profile h2 {
+    color: #4CAF50;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile .job-title {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Info Section */
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.story, .personal-info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 280px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.story h3, .personal-info h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.story p, .personal-info ul {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.personal-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.personal-info ul li {
+    margin: 8px 0;
+}
+
+/* Footer Section */
+.footer {
+    margin: 20px auto;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.social-icons .github {
+    background: url('https://storage.googleapis.com/bucket_haldi1/github.png') no-repeat center;
+}
+
+.social-icons .linkedin {
+    background: url('https://storage.googleapis.com/bucket_haldi1/linkedin.png') no-repeat center;
+}
+
